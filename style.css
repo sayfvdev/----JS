@@ -1,0 +1,233 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
+    background-color: #F0F0F0;
+
+    .left,
+    nav,
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        .round {
+            width: 34px;
+            height: 34px;
+            background-color: #c4c4c4;
+            border-radius: 100%;
+
+            &:last-child {
+                width: 57px;
+                height: 57px;
+            }
+        }
+
+    }
+
+    nav {
+        gap: 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
+}
+
+.card_container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 100px;
+}
+
+.img_product {
+    display: grid;
+    width: 412px;
+    height: 219px;
+    background-color: black;
+}
+
+.product_text {
+    padding-top: 26px;
+    padding-left: 36px;
+    width: 412px;
+    height: 100px;
+    background: #C4C4C4;
+}
+
+.people_container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.people_card {
+    transition: 1s;
+    box-shadow: 1px 3px 3px gray;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 150px;
+}
+
+.people_card:hover {
+    background-color: greenyellow;
+}
+
+.name_top h3 {
+    font-size: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.age_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.age_bottom h5 {
+    font-weight: 0;
+    color: gray;
+}
+
+.food_container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.food_menu {
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 2px solid rgb(199, 199, 199);
+}
+
+.food_menu h5 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.food_menu p {
+    font-weight: bold;
+    color: blue;
+}
+
+table {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    color: #333;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+td {
+    font-size: 16px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.uzum_card {
+    border-radius: 15px;
+    width: 215px;
+    height: 425px;
+    border: 1px solid #C4C4C4 ;
+    
+}
+
+.img_scale:hover img {
+    transform: scale(1.1);
+}
+
+.img_scale {
+    height: 288px;
+    overflow: hidden;
+}
+
+.img_scale img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.uzum_text h3 {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.uzum_text span {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.uzum_text p {
+    padding: 3px;
+    margin-left: 10px; 
+    margin-right: 125px; 
+	background-color: yellow;
+	color: black;
+	font-size: 12px;
+    border-radius: 3px;
+}
+
+.price_card {
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+
+.uzum_container {
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 150px;
+}
