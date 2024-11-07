@@ -188,6 +188,7 @@ td {
 .img_scale {
     height: 288px;
     overflow: hidden;
+    border-radius: 18px;
 }
 
 .img_scale img {
